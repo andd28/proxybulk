@@ -1,0 +1,18 @@
+{
+  "name": "tineye-proxy",
+  "version": "1.0.1",
+  "description": "TinEye proxy via socks4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "2.6.9",
+    "socks-proxy-agent": "^8.0.3"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "license": "MIT"
+}
